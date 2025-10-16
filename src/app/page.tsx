@@ -5,6 +5,7 @@ import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
 import FeatureCardThree from '@/components/sections/feature/featureCardThree/FeatureCardThree';
 import ContactCenterForm from '@/components/sections/contact/ContactCenterForm';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
+import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
 
 const assetMap = [{"id":"hero-image","url":"https://images.pexels.com/photos/34239106/pexels-photo-34239106.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","alt":"modern office workspace - Photo by Jakub Zerdzicki"},{"id":"about-image","url":"https://images.pexels.com/photos/6476255/pexels-photo-6476255.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","alt":"A diverse team of young professionals working on a business strategy in an urban office setting."},{"id":"feature-image-1","url":"https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&h=650&w=940","alt":"A close-up of a hand with a pen analyzing data on colorful bar and line charts on paper."}];
 

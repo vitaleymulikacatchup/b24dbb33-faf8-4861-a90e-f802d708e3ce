@@ -336,38 +336,6 @@
     mask-image: linear-gradient(to right, transparent 0%, black var(--width-x-padding-mask-fade), black calc(100% - var(--width-x-padding-mask-fade)), transparent 100%);
   }
 
-  /* ANIMATION */
-
-  .animation-container {
-    animation:
-      fadeInOpacity 0.8s ease-in-out forwards,
-      fadeInTranslate 0.6s forwards;
-  }
-
-  .animation-container-fade {
-    animation: fadeInOpacity 0.8s ease-in-out forwards;
-  }
-
-  @keyframes fadeInOpacity {
-    from {
-      opacity: 0;
-    }
-
-    to {
-      opacity: 1;
-    }
-  }
-
-  @keyframes fadeInTranslate {
-    from {
-      transform: translateY(0.75vh);
-    }
-
-    to {
-      transform: translateY(0vh);
-    }
-  }
-
 }
 
 * {
