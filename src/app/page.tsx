@@ -23,7 +23,7 @@ export default function Home() {
           <HeroBillboard
             title="Welcome to Our Platform"
             description="Create beautiful, responsive web experiences"
-            imageSrc={(assetMap.find(a => a.id === 'hero-image')?.url) ?? '/public/images/placeholder.webp'}
+            imageSrc="https://images.pexels.com/photos/34239106/pexels-photo-34239106.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
             buttons={[
               { text: "Get Started", href: "about" },
               { text: "Learn More", href: "features" }
