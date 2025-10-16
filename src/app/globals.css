@@ -242,7 +242,7 @@
   --width-carousel-padding-controls: var(--width-carousel-padding-controls);
   --width-carousel-item-3: var(--width-carousel-item-3);
   --width-carousel-item-4: var(--width-carousel-item-4);
-  --width-x-padding-mask-fade: var(--width-x-padding-mask-fade);
+  --width-x-padding-mask-fade: var(--vw-0_125);
 
   /* gap */
   --spacing-1: var(--vw-0_25);
