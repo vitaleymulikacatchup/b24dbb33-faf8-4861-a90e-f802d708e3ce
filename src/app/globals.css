@@ -135,7 +135,7 @@
     --width-95: 95vw;
     --width-100: 100vw;
     --width-content-width: 80vw;
-    --width-carousel-padding: calc((100vw - var(--width-content-width)) / 2 + 1px - var(--vw-1_5));
+    --width-carousel-padding: calc((100vw - var(--width-content-width)) / 2 + 1px - var(--vw-1_5);
     --width-carousel-padding-controls: calc((100vw - var(--width-content-width)) / 2 + 1px);
     --width-carousel-item-3: var(--width-content-width);
     --width-carousel-item-4: var(--width-content-width);
