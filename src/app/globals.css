@@ -322,7 +322,6 @@
 
   .primary-button {
     @apply bg-gradient-to-b from-primary-cta/83 to-primary-cta;
-    /* background: linear-gradient(rgb(64, 64, 64) 0%, rgb(26, 26, 26) 100%) rgba(0, 0, 0, 0); */
     box-shadow:
       color-mix(in srgb, var(--color-background) 25%, transparent) 0px 1px 1px 0px inset,
       color-mix(in srgb, var(--color-primary-cta) 15%, transparent) 3px 3px 3px 0px;
@@ -379,7 +378,6 @@
 body {
   background-color: var(--background);
   color: var(--foreground);
-  /* Available fonts: --font-inter-tight, --font-playfair, --font-roboto, --font-open-sans, --font-lato, --font-montserrat, --font-poppins, --font-raleway, --font-ubuntu, --font-nunito */
   font-family: var(--font-inter-tight), sans-serif;
   position: relative;
   min-height: 100vh;
